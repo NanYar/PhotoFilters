@@ -13,6 +13,7 @@
 		170B7F2819E5BB2A00174216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170B7F2719E5BB2A00174216 /* Images.xcassets */; };
 		170B7F2B19E5BB2A00174216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 170B7F2919E5BB2A00174216 /* LaunchScreen.xib */; };
 		170B7F3719E5BB2A00174216 /* PhotoFiltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B7F3619E5BB2A00174216 /* PhotoFiltersTests.swift */; };
+		170B7F4719E5D62F00174216 /* Buddha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170B7F4619E5D62F00174216 /* Buddha.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		170B7F3019E5BB2A00174216 /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		170B7F3519E5BB2A00174216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		170B7F3619E5BB2A00174216 /* PhotoFiltersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFiltersTests.swift; sourceTree = "<group>"; };
+		170B7F4619E5D62F00174216 /* Buddha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Buddha.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		170B7F1E19E5BB2A00174216 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				170B7F4619E5D62F00174216 /* Buddha.jpg */,
 				170B7F1F19E5BB2A00174216 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				170B7F2619E5BB2A00174216 /* Main.storyboard in Resources */,
+				170B7F4719E5D62F00174216 /* Buddha.jpg in Resources */,
 				170B7F2B19E5BB2A00174216 /* LaunchScreen.xib in Resources */,
 				170B7F2819E5BB2A00174216 /* Images.xcassets in Resources */,
 			);
@@ -341,6 +345,7 @@
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +356,7 @@
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
